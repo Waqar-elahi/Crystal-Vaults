@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="shortcut icon" type="x-icon"  href="image/logo.png">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Crystal Haven - Home</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/your-code.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- Page Loader -->
+    <div class="page-loader">
+      <span class="loader"></span>
+    </div>
+    <!-- Header -->
+    <header>
+      <div class="header-container">
+        <!-- Logo -->
+        <div class="logo-container">
+          <img src="image/logo-1.jpg" alt="ASTLE Logo" class="logo" />
+          <h1>Crystal Vaults</h1>
+        </div>
+
+        <!-- Search (Desktop) -->
+        <div class="search-container">
+          <form class="search-form" id="searchForm">
+            <input
+              type="text"
+              placeholder="Search ..."
+              class="search-input"
+            />
+            <button type="submit" class="search-btn">
+              <i class="fas fa-search"></i>
+            </button>
+          </form>
+        </div>
+
+        <!-- Navigation -->
+        <nav>
+          <ul class="nav-links">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="arrivals.html">New Arrivals</a></li>
+            <li><a href="offers.html">Special Offers</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+
+          <!-- Action Buttons -->
+          <div class="nav-actions">
+            <button class="action-btn search-toggle">
+              <i class="fas fa-search"></i>
+            </button>
+            <a href="cart.html" class="action-btn cart-btn">
+              <i class="fas fa-shopping-cart"></i>
+              <span class="cart-count">3</span>
+            </a>
+            <div class="account-dropdown">
+              <button class="action-btn account-btn">
+                <i class="fas fa-user"></i>
+              </button>
+              <div class="account-menu">
+                <a href="login.html"
+                  ><i class="fas fa-sign-in-alt"></i> Sign In</a
+                >
+                <a href="register.html"
+                  ><i class="fas fa-user-plus"></i> Register</a
+                >
+                <a href="account.html"
+                  ><i class="fas fa-user-circle"></i> My Account</a
+                >
+                <a href="wishlist.html"
+                  ><i class="fas fa-heart"></i> Wishlist</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- Mobile Menu Toggle -->
+          <div class="burger">
+            <div class="burger-line"></div>
+            <div class="burger-line"></div>
+            <div class="burger-line"></div>
+          </div>
+        </nav>
+      </div>
+
+      <!-- Mobile Search -->
+      <div class="mobile-search">
+        <form class="mobile-search-form" id="mobileSearchForm">
+          <input
+            type="text"
+            placeholder="Search crystals..."
+            class="mobile-search-input"
+          />
+          <button type="submit" class="mobile-search-btn">
+            <i class="fas fa-search"></i>
+          </button>
+        </form>
+      </div>
+    </header>
+    <div class="page-content"></div>
+
+    <!-- Hero Carousel Section -->
+    <section class="hero-carousel">
+      <div class="carousel-container">
+        <!-- Slide 1 -->
+        <div class="carousel-slide active">
+          <div class="slide-content">
+            <h2>Discover the Healing Power of Crystals</h2>
+            <p>
+              Enhance your life with our premium quality crystals and gemstones
+            </p>
+            <a href="products.html" class="btn">Shop Now</a>
+          </div>
+          <img
+            src="image/silder-1.jpg"
+            alt="Healing Crystals Collection"
+            loading="lazy"
+          />
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="carousel-slide">
+          <div class="slide-content">
+            <h2>Premium Quality Gemstones</h2>
+            <p>Hand-selected crystals for their energy and beauty</p>
+            <a href="products.html" class="btn">View Collection</a>
+          </div>
+          <img
+            src="image/silder-2.jpg"
+            alt="Premium Gemstones"
+            loading="lazy"
+          />
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="carousel-slide">
+          <div class="slide-content">
+            <h2>Special Crystal Bundles</h2>
+            <p>Curated sets for specific intentions and healing purposes</p>
+            <a href="offers.html" class="btn">See Offers</a>
+          </div>
+          <img src="image/silder-3.jpg" alt="Crystal Bundles" loading="lazy" />
+        </div>
+
+        <!-- Navigation Arrows -->
+        <button class="carousel-prev">&#10094;</button>
+        <button class="carousel-next">&#10095;</button>
+
+        <!-- Indicators -->
+        <div class="carousel-indicators">
+          <span class="indicator active"></span>
+          <span class="indicator"></span>
+          <span class="indicator"></span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Crystals Section -->
+    <section class="featured">
+      <h2>Featured Crystals</h2>
+      <div class="crystal-grid">
+        <div class="crystal-item">
+          <img
+            src="image/kimberley-chow-jkhb4T9sjVg-unsplash.jpg"
+            alt="Amethyst"
+          />
+          <h3>Amethyst</h3>
+          <p>Known for its calming and protective properties</p>
+          <a href="products.html#amethyst" class="btn-small">View Products</a>
+        </div>
+        <div class="crystal-item">
+          <img src="image/Rose Quartz.jpg" alt="Rose Quartz" />
+          <h3>Rose Quartz</h3>
+          <p>The stone of unconditional love and harmony</p>
+          <a href="products.html#rose-quartz" class="btn-small"
+            >View Products</a
+          >
+        </div>
+        <div class="crystal-item">
+          <img src="image/Citrine.jpg" alt="Citrine" />
+          <h3>Citrine</h3>
+          <p>Attracts wealth, prosperity and success</p>
+          <a href="products.html#citrine" class="btn-small">View Products</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="benefits">
+      <h2>Why Choose Our Crystals?</h2>
+      <div class="benefits-grid">
+        <div class="benefit-item">
+          <i class="fas fa-gem"></i>
+          <h3>Authentic Quality</h3>
+          <p>
+            All our crystals are ethically sourced and verified for authenticity
+          </p>
+        </div>
+        <div class="benefit-item">
+          <i class="fas fa-heart"></i>
+          <h3>Healing Properties</h3>
+          <p>Each crystal is selected for its unique healing energies</p>
+        </div>
+        <div class="benefit-item">
+          <i class="fas fa-truck"></i>
+          <h3>Fast Shipping</h3>
+          <p>We deliver worldwide with careful packaging</p>
+        </div>
+        <div class="benefit-item">
+          <i class="fas fa-headset"></i>
+          <h3>Expert Support</h3>
+          <p>Our crystal experts are available to guide you</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-content">
+        <div class="footer-section about">
+          <h3>About Crystal Haven</h3>
+          <p>
+            We provide high-quality crystals to enhance your physical, emotional
+            and spiritual well-being.
+          </p>
+          <div class="socials">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-pinterest"></i></a>
+          </div>
+        </div>
+        <div class="footer-section links">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="footer-section contact">
+          <h3>Contact Info</h3>
+          <p>
+            <i class="fas fa-map-marker-alt"></i> 123 Crystal Lane, Mineral City
+          </p>
+          <p><i class="fas fa-phone"></i> +92-3022494950</p>
+          <p><i class="fas fa-envelope"></i> info@Crystal Vaults.com</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; I am developer. © 2025 Crystal Vaults. All rights reserved..</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

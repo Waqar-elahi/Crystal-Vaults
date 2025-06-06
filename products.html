@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="shortcut icon" type="x-icon"  href="image/logo.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crystal Haven - Products</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+     <!-- Header -->
+    <header>
+      <div class="header-container">
+        <!-- Logo -->
+        <div class="logo-container">
+          <img src="image/logo-1.jpg" alt="ASTLE Logo" class="logo" />
+          <h1>Crystal Vaults</h1>
+        </div>
+
+        <!-- Search (Desktop) -->
+        <div class="search-container">
+          <form class="search-form" id="searchForm">
+            <input
+              type="text"
+              placeholder="Search ..."
+              class="search-input"
+            />
+            <button type="submit" class="search-btn">
+              <i class="fas fa-search"></i>
+            </button>
+          </form>
+        </div>
+
+        <!-- Navigation -->
+        <nav>
+          <ul class="nav-links">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="arrivals.html">New Arrivals</a></li>
+            <li><a href="offers.html">Special Offers</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+
+          <!-- Action Buttons -->
+          <div class="nav-actions">
+            <button class="action-btn search-toggle">
+              <i class="fas fa-search"></i>
+            </button>
+            <a href="cart.html" class="action-btn cart-btn">
+              <i class="fas fa-shopping-cart"></i>
+              <span class="cart-count">3</span>
+            </a>
+            <div class="account-dropdown">
+              <button class="action-btn account-btn">
+                <i class="fas fa-user"></i>
+              </button>
+              <div class="account-menu">
+                <a href="login.html"
+                  ><i class="fas fa-sign-in-alt"></i> Sign In</a
+                >
+                <a href="register.html"
+                  ><i class="fas fa-user-plus"></i> Register</a
+                >
+                <a href="account.html"
+                  ><i class="fas fa-user-circle"></i> My Account</a
+                >
+                <a href="wishlist.html"
+                  ><i class="fas fa-heart"></i> Wishlist</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- Mobile Menu Toggle -->
+          <div class="burger">
+            <div class="burger-line"></div>
+            <div class="burger-line"></div>
+            <div class="burger-line"></div>
+          </div>
+        </nav>
+      </div>
+
+      <!-- Mobile Search -->
+      <div class="mobile-search">
+        <form class="mobile-search-form" id="mobileSearchForm">
+          <input
+            type="text"
+            placeholder="Search crystals..."
+            class="mobile-search-input"
+          />
+          <button type="submit" class="mobile-search-btn">
+            <i class="fas fa-search"></i>
+          </button>
+        </form>
+      </div>
+    </header>
+
+        <!-- Offers Hero Section -->
+    <section class="offers-hero">
+        <div class="offers-hero-content">
+            <h2>Crystal Categories</h2>
+            <p>Enjoy these limited-time deals on our most popular crystals</p>
+        </div>
+    </section>
+
+    <!-- Crystal Categories -->
+<section class="crystal-categories">
+    <div class="container">
+        <h2>Browse by Crystal Type</h2>
+        <div class="category-buttons">
+            <button class="category-btn active" data-category="all">All Crystals</button>
+            <button class="category-btn" data-category="amethyst">Amethyst</button>
+            <button class="category-btn" data-category="rose-quartz">Rose Quartz</button>
+        </div>
+    </div>
+</section>
+
+<!-- Products Grid -->
+<section class="products-grid">
+    <div class="container">
+        <div class="products-container">
+            <!-- Amethyst Products -->
+            <div class="product-item" data-category="amethyst" id="amethyst">
+                <div class="product-image-container">
+                    <img src="image/product/pexels-1138093-9037441.jpg" alt="Amethyst Necklace" loading="lazy">
+                    <span class="product-badge">Popular</span>
+                </div>
+                <div class="product-details">
+                    <h3>Amethyst</h3>
+                    <p class="price">$49.99</p>
+                    <div class="rating">
+                        <span class="stars">★★★★★</span>
+                        <span class="review-count">(42)</span>
+                    </div>
+                    <p class="description">Beautiful amethyst pendant necklace for protection and calm.</p>
+                    <div class="product-actions">
+                        <a href="docs/amethyst-necklace.pdf" class="btn-small" download>Details</a>
+                        <button class="btn-small compare-btn">Compare</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-item" data-category="amethyst">
+                <div class="product-image-container">
+                    <img src="image/product/pexels-1138093-9037445.jpg" alt="Amethyst Cluster" loading="lazy">
+                </div>
+                <div class="product-details">
+                    <h3>Amethyst </h3>
+                    <p class="price">$89.99</p>
+                    <div class="rating">
+                        <span class="stars">★★★★☆</span>
+                        <span class="review-count">(28)</span>
+                    </div>
+                    <p class="description">Natural amethyst cluster for home decoration and energy cleansing.</p>
+                    <div class="product-actions">
+                        <a href="docs/amethyst-cluster.pdf" class="btn-small" download>Details</a>
+                        <button class="btn-small compare-btn">Compare</button>
+                    </div>
+                </div>
+            </div>
+
+             <div class="product-item" data-category="amethyst">
+                <div class="product-image-container">
+                    <img src="image/product/pexels-castorlystock-3725723.jpg" alt="Amethyst Cluster" loading="lazy">
+                </div>
+                <div class="product-details">
+                    <h3>Amethyst </h3>
+                    <p class="price">$60.99</p>
+                    <div class="rating">
+                        <span class="stars">★★★★☆</span>
+                        <span class="review-count">(28)</span>
+                    </div>
+                    <p class="description">Natural amethyst cluster for home decoration and energy cleansing.</p>
+                    <div class="product-actions">
+                        <a href="docs/amethyst-cluster.pdf" class="btn-small" download>Details</a>
+                        <button class="btn-small compare-btn">Compare</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Rose Quartz Products -->
+            <div class="product-item" data-category="rose-quartz" id="rose-quartz">
+                <div class="product-image-container">
+                    <img src="image/product/pexels-1138093-9693643.jpg" alt="Rose Quartz Bracelet" loading="lazy">
+                    <span class="product-badge">Bestseller</span>
+                </div>
+                <div class="product-details">
+                    <h3>Rose Quartz</h3>
+                    <p class="price">$39.99</p>
+                    <div class="rating">
+                        <span class="stars">★★★★★</span>
+                        <span class="review-count">(56)</span>
+                    </div>
+                    <p class="description">Elegant rose quartz bead bracelet for love and harmony.</p>
+                    <div class="product-actions">
+                        <a href="docs/rose-quartz-bracelet.pdf" class="btn-small" download>Details</a>
+                        <button class="btn-small compare-btn">Compare</button>
+                    </div>
+                </div>
+            </div>
+
+              <div class="product-item" data-category="rose-quartz" id="rose-quartz">
+                <div class="product-image-container">
+                    <img src="image/product/pexels-castorlystock-3725743.jpg" alt="Rose Quartz Bracelet" loading="lazy">
+                    <span class="product-badge">Bestseller</span>
+                </div>
+                <div class="product-details">
+                    <h3>Rose Quartz</h3>
+                    <p class="price">$50.99</p>
+                    <div class="rating">
+                        <span class="stars">★★★★★</span>
+                        <span class="review-count">(56)</span>
+                    </div>
+                    <p class="description">Elegant rose quartz bead bracelet for love and harmony.</p>
+                    <div class="product-actions">
+                        <a href="docs/rose-quartz-bracelet.pdf" class="btn-small" download>Details</a>
+                        <button class="btn-small compare-btn">Compare</button>
+                    </div>
+                </div>
+            </div>
+
+              <div class="product-item" data-category="rose-quartz" id="rose-quartz">
+                <div class="product-image-container">
+                    <img src="image/product/pexels-clickerhappy-1571587.jpg" alt="Rose Quartz Bracelet" loading="lazy">
+                    <span class="product-badge">Bestseller</span>
+                </div>
+                <div class="product-details">
+                    <h3>Rose Quartz</h3>
+                    <p class="price">$43.99</p>
+                    <div class="rating">
+                        <span class="stars">★★★★★</span>
+                        <span class="review-count">(56)</span>
+                    </div>
+                    <p class="description">Elegant rose quartz bead bracelet for love and harmony.</p>
+                    <div class="product-actions">
+                        <a href="docs/rose-quartz-bracelet.pdf" class="btn-small" download>Details</a>
+                        <button class="btn-small compare-btn">Compare</button>
+                    </div>
+                </div>
+            </div>
+            
+
+
+
+            <!-- Other products would follow the same structure -->
+            
+        </div>
+    </div>
+</section>
+
+<!-- Comparison Modal -->
+<div class="comparison-modal">
+    <div class="modal-content">
+        <span class="close-modal">&times;</span>
+        <h2>Compare Products</h2>
+        <div class="comparison-table">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Product</th>
+                        <th>Price</th>
+                        <th>Crystal Type</th>
+                        <th>Benefits</th>
+                        <th>Rating</th>
+                    </tr>
+                </thead>
+                <tbody id="comparison-body">
+                    <!-- Comparison rows will be added here by JavaScript -->
+                </tbody>
+            </table>
+        </div>
+        <button class="btn clear-comparison">Clear Comparison</button>
+    </div>
+</div>
+
+   
+  <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section about">
+                <h3>About Crystal Haven</h3>
+                <p>We provide high-quality crystals to enhance your physical, emotional and spiritual well-being.</p>
+                <div class="socials">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-pinterest"></i></a>
+                </div>
+            </div>
+            <div class="footer-section links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-section contact">
+                <h3>Contact Info</h3>
+                <p><i class="fas fa-map-marker-alt"></i> 123 Crystal Lane, Mineral City</p>
+                <p><i class="fas fa-phone"></i> +92-3022494950</p>
+                <p><i class="fas fa-envelope"></i> info@Crystal Vaults.com</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+             <p>&copy; I am developer. © 2025 Crystal Vaults. All rights reserved..</p>
+        </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
